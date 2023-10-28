@@ -1,3 +1,11 @@
+/**
+* App component renders the main UI for the password generator.
+* It manages state for password length, allowed characters, and the generated password.
+* Handles user input for settings, generating a new password, and copying to clipboard.
+* Renders the UI elements like input controls, buttons, and password display.
+* Uses React hooks like useState, useCallback, useRef to manage state and effects.
+* Imports and renders Toaster from react-hot-toast for copy notifications.
+*/
 import React from 'react'
 import { useState, useCallback, useEffect, useRef } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
